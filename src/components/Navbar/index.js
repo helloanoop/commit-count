@@ -7,13 +7,13 @@ const Navbar = ({
 }) => {
   return (
     <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="text-white text-lg font-bold">commit count</div>
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div className="text-white text-lg font-bold mb-4 md:mb-0">commit count</div>
         <div className="flex items-center">
           <input
             type="text"
             placeholder="owner/repo"
-            className="px-4 py-2 rounded-l-md focus:outline-none h-8"
+            className="px-4 py-2 rounded-l-md focus:outline-none h-8 md:mb-0"
             defaultValue={repo}
             onChange={(e) => onSetRepo(e.target.value)}
             onKeyPress={(e) => {
