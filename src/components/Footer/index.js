@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="p-4">
       <div className="container mx-auto flex items-center justify-between">
         <div>
-          sponsored by <a href="https://www.usebruno.com" className="text-blue-500" target="_blank">bruno</a> - fast git friendly api client
+          sponsored by <a href="https://www.usebruno.com" rel="noreferrer" className="text-blue-500" target="_blank">bruno</a> - fast git friendly api client
         </div>
         <div className='flex items-center'>
           <Link href='https://www.github.com/helloanoop/commit-count'>
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
           </Link>
           <span>
-            | made by <a href="https://www.helloanoop.com" className="text-blue-500" target="_blank"> anoop</a>
+            | made by <a href="https://www.helloanoop.com" rel="noreferrer" className="text-blue-500" target="_blank"> anoop</a>
           </span>
         </div>
       </div>
