@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="p-4">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
-        <div className="mb-0 sm:mb-4 sm:mb-0 text-center sm:text-left">
+        <div className="text-center sm:text-left">
           Sponsored by <a href="https://www.usebruno.com" rel="noreferrer" className="text-blue-500" target="_blank">bruno</a> - fast git friendly API client
         </div>
         <div className="flex items-center mt-4 sm:mt-0">
